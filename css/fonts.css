@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "BlackJack";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/blackjack-webfont.eot");
+  src: url("../fonts/blackjack-webfont.eot?#iefix") format("embedded-opentype"), 
+  url("../fonts/blackjack-webfont.woff") format("woff"), 
+  url("../fonts/blackjack-webfont.ttf") format("truetype"); 
+ }
+
+ @font-face {
+  font-family: "ProximaNova";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), 
+  url("../fonts/ProximaNova-Light.woff") format("woff"), 
+  url("../fonts/ProximaNova-Light.ttf") format("truetype"); 
+ }

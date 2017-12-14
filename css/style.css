@@ -1,0 +1,99 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	width: 100%;
+	max-width: 940px;
+	margin: 0 auto;
+}
+@media (max-width: 940px){
+	.container{
+		padding: 0 20px;
+	}
+}
+
+/* header */
+
+
+.header .container{
+	width: 100%;
+	max-width: 940px;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1;
+}
+.logo{
+	display: flex;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0px 5px 0px 0px #0da9e5, 15px 15px 0px 0px #0da9e5;
+}
+.burger{
+	display: block;
+}
+
+.burger-line{
+	display: block;
+  	background-color: #fff;
+  	width: 30px;
+  	height: 4px;
+  	margin-bottom: 2px;
+  	border-radius: 20%;
+}
+
+/* hero */
+
+.hero{
+	background: url('../images/banner-header.png') no-repeat center top;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	z-index: -1;
+}
+
+.hero-content{
+	position: relative;
+	text-align: right;
+	color: #FFF;
+	padding-top: 100px;
+}
+.hero-content h1{
+  	font-size: 70px;
+  	font-family: 'BlackJack';
+  	font-weight: 400;
+  	margin-bottom: 20px;
+}
+.hero-content h3{
+	font-size: 35px;
+	font-family: 'ProximaNova';
+	font-weight: 400;
+}
+
+.hero-button a{
+	position: relative;
+	top: 50px;
+	padding: 20px 30px; 
+	border: 2px solid #fff;
+	text-transform: uppercase;
+	color: #FFF;
+	text-decoration: none;
+	font-family: 'ProximaNova';
+	font-size: 15px;
+}
+.hero-button i{
+	padding-left: 10px;
+}
+.hero-phone{
+	padding-left: 100px;
+	overflow: hidden;
+}
